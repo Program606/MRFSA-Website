@@ -48,3 +48,53 @@
         "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png"
       }
   ]
+[
+    {
+      "first": "Alexa",
+      "last": "Bonite",
+      "role": "Co-President",
+      "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png",
+      "team": "Exec"
+    },
+    {
+        "first": "Gabbi",
+        "last": "Ramos",
+        "role": "Co-President",
+        "image": "images/Team/Solos/MRFSA _25-_26 Team - Gabbi.png",
+        "team": "Exec"
+      },
+      {
+        "first": "Aira",
+        "last": "Bonite",
+        "role": "Co-Director",
+        "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png",
+        "team": "Marketing Team",
+        "people": 
+        [
+            {
+            "first": "Prince",
+            "last": "Manzano",
+            "role": "Sr. Committee Member",
+            "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png"
+            },
+            {
+            "first": "Isabel",
+            "last": "Manzano",
+            "role": "Sr. Committee Member",
+            "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png"
+            },
+            {
+            "first": "Hannah",
+            "last": "Tan",
+            "role": "Jr. Committee Member",
+            "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png"
+            }
+]
+      },
+      {
+        "first": "Alexa",
+        "last": "Bonite",
+        "role": "Co-Director",
+        "image": "images/Team/Solos/MRFSA _25-_26 Team - Alexa.png"
+      }
+  ]
