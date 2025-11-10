@@ -1,25 +1,51 @@
-
 /* Custom additions on top of Tailwind */
-:root { 
-  --mrfsa-primary: #003352; 
-  --mrfsa-secondary: #5376a9; 
-  --mrfsa-white: #FFFFFF;
+:root {
+  --mrfsa-primary: #003352;
+  --mrfsa-secondary: #5376a9;
+  --mrfsa-white: #ffffff;
   /* Typography Variables */
-  --mrfsa-font-logo: 'Bungee', cursive;
-  --mrfsa-font-body: 'Poppins', sans-serif;
+  --mrfsa-font-logo: "Bungee", cursive;
+  --mrfsa-font-body: "Poppins", sans-serif;
   /* Legacy variables for backward compatibility */
-  --mrfsa-blue: #5376a9; 
-  --mrfsa-red: #003352; 
-  --mrfsa-yellow: #5376a9; 
-  --mrfsa-dark-blue: #003352; 
-  --mrfsa-values-yellow: #FED141;
-  --mrfsa-values-red: #BF0D3E;
+  --mrfsa-blue: #5376a9;
+  --mrfsa-red: #003352;
+  --mrfsa-yellow: #5376a9;
+  --mrfsa-dark-blue: #003352;
+  --mrfsa-values-yellow: #fed141;
+  --mrfsa-values-red: #bf0d3e;
 }
-.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}
-.skip-link:focus{left:0;top:0;width:auto;height:auto;background:#fff;color:#000;padding:.5rem 1rem;z-index:50;}
-.focus-ring:focus{outline:3px solid #111; outline-offset:2px;}
-.hero-overlay{background:linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.35) 100%);} /* subtle only for contrast */
-.round-pill{border-radius:9999px;}
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  background: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  z-index: 50;
+}
+.focus-ring:focus {
+  outline: 3px solid #111;
+  outline-offset: 2px;
+}
+.hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+} /* subtle only for contrast */
+.round-pill {
+  border-radius: 9999px;
+}
 
 /* Typography Base Styles */
 body {
@@ -42,15 +68,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #252424;
 }
-.section-container-half{
+.section-container-half {
   width: 66.333333%; /* 1/3 of screen width */
   margin: 0 auto; /* Center the section */
 }
 
-
 /* Keep navigation and footer full width */
-header, footer {
+header,
+footer {
   width: 100% !important;
 }
 
@@ -68,7 +95,24 @@ header, footer {
 }
 
 /* Decorative stars */
-.star{width:18px;height:18px;display:inline-block;background:var(--mrfsa-yellow);clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);}
+.star {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: var(--mrfsa-yellow);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
 
 /* About + Values Section Styles */
 /* Circle Section */
@@ -113,8 +157,8 @@ header, footer {
 }
 
 .value-icon {
-  font-size: 50px;
-  margin-bottom: 8px;
+  width: 44%;
+  height: 100%;
 }
 
 .value-title {
@@ -124,15 +168,14 @@ header, footer {
 }
 
 .value-description {
-  font-size: 13px ;
+  font-size: 13px;
   color: var(--mrfsa-primary);
   line-height: 1.3;
-
 }
 .text-shadow {
-  text-shadow: 2px 2px 6px rgba(0,0,0,1);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
 }
-.teamCover{
+.teamCover {
   height: auto;
   width: 35%;
 }
@@ -152,7 +195,18 @@ header, footer {
   display: inline-block;
   background: var(--mrfsa-primary);
   border: 3px solid var(--mrfsa-secondary);
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
   transform: rotate(15deg);
 }
 
@@ -167,23 +221,23 @@ header, footer {
     width: 250px;
     height: 250px;
   }
-  
+
   .value-circle {
     width: 100px;
     height: 100px;
     padding: 12px;
   }
-  
+
   .value-icon {
     font-size: 20px;
     margin-bottom: 6px;
   }
-  
+
   .value-title {
     font-size: 14px;
     margin-bottom: 4px;
   }
-  
+
   .value-description {
     font-size: 11px;
   }
@@ -194,23 +248,23 @@ header, footer {
     width: 200px;
     height: 200px;
   }
-  
+
   .value-circle {
     width: 80px;
     height: 80px;
     padding: 8px;
   }
-  
+
   .value-icon {
     font-size: 16px;
     margin-bottom: 4px;
   }
-  
+
   .value-title {
     font-size: 12px;
     margin-bottom: 3px;
   }
-  
+
   .value-description {
     font-size: 10px;
   }
@@ -227,8 +281,8 @@ header, footer {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   font-weight: 600;
   font-family: var(--mrfsa-font-body);
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
-              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   transform: translateY(0) scale(1);
 }
@@ -236,7 +290,11 @@ header, footer {
 .event-card:hover {
   transform: translateY(-15px) scale(1.02);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(135deg, var(--mrfsa-values-yellow) 0%, #FFE55C 100%);
+  background: linear-gradient(
+    135deg,
+    var(--mrfsa-values-yellow) 0%,
+    #ffe55c 100%
+  );
 }
 
 .event-card.reverse {
@@ -307,24 +365,24 @@ header, footer {
     text-align: center;
     padding: 16px;
   }
-  
+
   .event-card.reverse {
     flex-direction: column;
   }
-  
+
   .event-image {
     width: 120px;
     height: 150px;
   }
-  
+
   .event-title {
     font-size: 20px;
   }
-  
+
   .event-date {
     font-size: 16px;
   }
-  
+
   .event-description {
     font-size: 14px;
   }
@@ -361,7 +419,7 @@ header, footer {
 }
 
 .social-link::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -397,7 +455,14 @@ header, footer {
 
 /* Individual platform hover colors */
 .social-link[href*="instagram"]:hover {
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
 }
 
 .social-link[href*="linkedin"]:hover {
@@ -410,4 +475,22 @@ header, footer {
 
 .social-link[href*="tiktok"]:hover {
   background-color: #000000;
+}
+
+.star_position_1 {
+    position: absolute;
+    width: 21%;
+    height: 62%;
+    top: -47px;
+    left: -29px;
+    transform: rotate(-4deg);
+}
+
+.star_position_2 {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    top: 137px;
+    left: 1030px;
+    transform: rotate(-4deg);
 }
