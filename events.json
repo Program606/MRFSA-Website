@@ -1,0 +1,26 @@
+[
+  {
+    "date": "Sept 29, 2025",
+    "title": "MRFSA Meet & Greet",
+    "location": "MRU Student Centre",
+    "image": "images/Events/meetandgreet.jpg",
+    "description": "Join us for a friendly Meet and Greet where you'll have the chance to connect, share stories, and get to know existing and new members of MRFSA.",
+    "imagePosition": "left"
+  },
+  {
+    "date": "Mar 29, 2025",
+    "title": "SportsFest",
+    "location": "MRU Gymnasium",
+    "image": "images/Events/sportsfest.jpg",
+    "description": "Connect with new friends, exchange stories, and share the spirit of competition in a fun and welcoming games of volleyball and basketball.",
+    "imagePosition": "right"
+  },
+  {
+    "date": "Feb 11, 2025",
+    "title": "Feb-Ibig",
+    "location": "Ross Glen Hall",
+    "image": "images/Events/febibig.jpg",
+    "description": "Join us for a friendly Meet and Greet where you'll have the chance to connect, share stories, and get to know existing and new members of MRFSA.",
+    "imagePosition": "left"
+  }
+]
