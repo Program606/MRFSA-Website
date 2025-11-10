@@ -494,3 +494,122 @@ footer {
     left: 1030px;
     transform: rotate(-4deg);
 }
+
+        .pills-container {
+            display: flex;
+            margin-left: 5rem;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .pill {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid rgb(26, 9, 9);
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: transparent;
+        }
+
+        .pill:hover {
+            transform: translateY(-2px);
+        }
+
+        .pill.executive { background: #C7CCD3; }
+        .pill.marketing { background: #3b82f6; }
+        .pill.events { background: #eab308; }
+        .pill.admin { background: #ef4444; }
+        .pill.finance { background: #10b981; }
+
+        .pill.active {
+            border-color: transparent;
+        }
+
+        .main-container {
+            width: 95%;
+            height: 70rem;
+            border-radius: 1.875rem;
+            background: #10b981;
+            transition: background-color 0.5s ease;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .top-section {
+            display: flex;
+            flex: 1;
+            max-height: 40rem;
+        }
+
+        .top-left {
+            flex: 1;
+        }
+
+        .top-right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top-right-header {
+            height: 5rem;
+        }
+        .top-right-header > .pill{
+          background-color: #111;
+        }
+        .horizontalPolaroid {
+          background-color: rgb(255, 255, 255);
+          /* height: 15rem;
+          width: 15rem; */
+          margin: 0.25rem 2rem 0.25rem 1rem;
+          padding: 0rem 4rem 0rem 0.5rem;
+          position: relative;
+          display: flex;
+          justify-content: start;
+        }
+        .verticalPolaroid {
+          background-color: rgb(255, 255, 255);
+          height: 22rem;
+          /* width: 25rem; */
+          margin: 0.5rem;
+          position: relative;
+          display: flex;
+          max-height: 26rem;
+          min-height: 20rem;
+        }
+        .horizontalPolaroidImg{
+          max-height: 20rem;
+          min-height: 20rem;
+        }
+        #teamMainImg{
+          position: relative;
+          right: -1rem;
+        }
+        #polaroid1{
+          right: -4rem;
+        }
+        #polaroid3{
+          transform: rotate();
+          scale: 90%;
+        }
+        .top-right-body {
+            flex: 1;
+        }
+
+        .bottom-section {
+            max-height: 30rem;
+            display: flex;
+            flex: 1;
+        }
+
+        .bottom-left {
+            flex: 1;
+        }
+
+        .bottom-right {
+            flex: 1;
+            background: #6b3d5f;
+        }
